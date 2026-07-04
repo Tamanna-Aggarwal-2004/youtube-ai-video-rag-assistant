@@ -1,0 +1,81 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Downloaded Videos & Audio
+downloads/
+downloaded/
+videos/
+audio/
+temp/
+
+# FAISS Vector Store
+faiss_index/
+*.faiss
+*.pkl
+
+# ChromaDB (if used later)
+chroma_db/
+my_chroma_db/
+
+# Whisper Cache
+.cache/whisper/
+
+# Model Files
+models/
+*.bin
+*.pt
+*.onnx
+
+# Generated Files
+summaries/
+outputs/
+transcripts/
+
+# OS Generated
+*.tmp
+*.temp
