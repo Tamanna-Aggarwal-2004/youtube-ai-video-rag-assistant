@@ -11,3 +11,15 @@ sentence-transformers
 torch
 torchvision
 python-dotenv
+
+streamlit
+youtube-transcript-api
+langchain-text-splitters
+langchain-huggingface
+langchain-community
+langchain-groq
+langchain-core
+faiss-cpu
+python-dotenv
+sentence-transformers
+torch
