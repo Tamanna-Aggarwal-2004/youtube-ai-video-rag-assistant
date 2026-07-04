@@ -812,6 +812,7 @@ def run_pipeline(url):
         st.session_state.stage = "idle"
     except Exception as e:
         progress_holder.empty()
+        st.exception(e)   # TEMP: shows full traceback in the app — remove after debugging
         msg = str(e).lower()
         if "network" in msg or "timeout" in msg or "connection" in msg:
             st.session_state.error = ("network", "")
